@@ -1,0 +1,13 @@
+name: upload to S3(manual trigger)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest 
+
+    steps:
+      -  name: checkout branch code 
+         uses: actions/checkout@v3
+  
