@@ -1,7 +1,9 @@
 name: Upload to S3 (Manual Trigger)
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - feature/s3-upload
 
 jobs:
   upload:
