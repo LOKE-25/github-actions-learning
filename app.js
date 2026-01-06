@@ -2,7 +2,7 @@ const http = require('http');
 
 const server  = http.createServer((req,res) =>{
     res.writeHead(200,{'Content-Type':'text/plain'});
-    res.end('Hello from node.js running in Docker using EC2!\n');
+    res.end('Hello from node.js running in Docker using EC2!orewa kaisoko ninaro othukutho\n');
 });
 
 server.listen(3000, () =>{
